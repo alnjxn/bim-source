@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command BIMSource.SPWriter</Text>
+    <Description>Some description for BIMSource.SPWriter</Description>
+    <Assembly>BIMSource.SPWriter.dll</Assembly>
+    <FullClassName>BIMSource.SPWriter.Commands</FullClassName>
+    <ClientId>643bd2f4-2d9e-483f-875d-6ae5b10ed15b</ClientId>
+    <VendorId>OPNR</VendorId>
+    <VendorDescription>BIM Source, www.bim-source.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
