@@ -13,7 +13,7 @@ using Autodesk.Revit.UI;
 namespace BIMSource.SPWriter
 {
   /// <summary>
-  /// Revit 2013 API Application Class
+  /// Revit 2014 API Application Class
   /// </summary>
   [Transaction(TransactionMode.Manual)]
   class Application : IExternalApplication

@@ -7,7 +7,7 @@
     </ProductVersion>
     <SchemaVersion>
     </SchemaVersion>
-    <ProjectGuid>{545C7DB7-245C-4F96-A73E-78056CDE920A}</ProjectGuid>
+    <ProjectGuid>{F61A25B6-9799-40DC-A020-994BC89BA69D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BIMSource.SPWriter</RootNamespace>
@@ -59,14 +59,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
-    <Reference Include="RevitAPI, Version=2013.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\Autodesk\Revit 2013\Program\RevitAPI.dll</HintPath>
+    <Reference Include="RevitAPI">
+      <HintPath>..\..\..\..\..\Documents\My Box Files\Public\RevitAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="RevitAPIUI, Version=2013.0.0.0, Culture=neutral, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\Autodesk\Revit 2013\Program\RevitAPIUI.dll</HintPath>
+    <Reference Include="RevitAPIUI">
+      <HintPath>..\..\..\..\..\Documents\My Box Files\Public\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -117,6 +115,6 @@
     <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2011\BIMSource.SPWriter.addin" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(ProjectDir)BIMSource.SPWriter.addin" "$(AppData)\Autodesk\REVIT\Addins\2013\BIMSource.SPWriter.addin"</PostBuildEvent>
+    <PostBuildEvent>copy "$(ProjectDir)BIMSource.SPWriter.addin" "$(AppData)\Autodesk\REVIT\Addins\2014\BIMSource.SPWriter.addin"</PostBuildEvent>
   </PropertyGroup>
 </Project>

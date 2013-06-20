@@ -1,19 +1,7 @@
-﻿using System;
-using System.Text;
-using System.Linq;
-using System.Xml;
-using System.Reflection;
-using System.ComponentModel;
-using System.Collections;
-using System.Collections.Generic;
-using System.Windows;
-using System.Windows.Forms;
+﻿using Autodesk.Revit.DB;
+using System;
 using System.IO;
-using Autodesk.Revit.ApplicationServices;
-using Autodesk.Revit.Attributes;
-using Autodesk.Revit.DB;
-using Autodesk.Revit.UI;
-using Autodesk.Revit.UI.Selection;
+using System.Windows.Forms;
 
 namespace BIMSource.SPWriter
 {

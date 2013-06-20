@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Revit 2013 BIM Source SP.Witer")]
+[assembly: AssemblyTitle("Revit 2014 BIM Source SP.Witer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("BIM Source")]
-[assembly: AssemblyProduct("Revit 2013 BIM Source SP.Witer")]
-[assembly: AssemblyCopyright("Copyright ©  2012")]
+[assembly: AssemblyProduct("Revit 2014 BIM Source SP.Witer")]
+[assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("118f7279-630d-4661-afe5-c23c23acf46f")]
+[assembly: Guid("f2b9f5eb-3641-4b4a-9510-93f5048e6ee9")]
 
 // Version information for an assembly consists of the following four values:
 //
