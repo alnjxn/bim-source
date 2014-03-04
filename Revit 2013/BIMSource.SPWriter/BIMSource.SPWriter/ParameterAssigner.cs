@@ -95,17 +95,37 @@ namespace BIMSource.SPWriter
             {
               bpg = BuiltInParameterGroup.PG_GEOMETRY;
             }
+            else if (def.OwnerGroup.Name == "Graphics")
+            {
+                bpg = BuiltInParameterGroup.PG_GRAPHICS;
+            }
+            else if (def.OwnerGroup.Name == "Model Properties")
+            {
+                bpg = BuiltInParameterGroup.PG_ADSK_MODEL_PROPERTIES;
+            }
+            else if (def.OwnerGroup.Name == "Overall Legend")
+            {
+                bpg = BuiltInParameterGroup.PG_OVERALL_LEGEND;
+            }
             else if (def.OwnerGroup.Name == "Electrical")
             {
-              bpg = BuiltInParameterGroup.PG_ELECTRICAL;
+                bpg = BuiltInParameterGroup.PG_ELECTRICAL;
             }
             else if (def.OwnerGroup.Name == "Mechanical")
             {
-              bpg = BuiltInParameterGroup.PG_MECHANICAL;
+                bpg = BuiltInParameterGroup.PG_MECHANICAL;
+            }
+            else if (def.OwnerGroup.Name == "Electrical - Lighting")
+            {
+                bpg = BuiltInParameterGroup.PG_ELECTRICAL_LIGHTING;
             }
             else if (def.OwnerGroup.Name == "Identity Data")
             {
-              bpg = BuiltInParameterGroup.PG_IDENTITY_DATA;
+                bpg = BuiltInParameterGroup.PG_IDENTITY_DATA;
+            }
+            else if (def.OwnerGroup.Name == "Data")
+            {
+                bpg = BuiltInParameterGroup.PG_DATA;
             }
             else if (def.OwnerGroup.Name == "Electrical - Loads")
             {
@@ -118,6 +138,10 @@ namespace BIMSource.SPWriter
             else if (def.OwnerGroup.Name == "Energy Analysis")
             {
               bpg = BuiltInParameterGroup.PG_ENERGY_ANALYSIS;
+            }
+            else if (def.OwnerGroup.Name == "Photometrics")
+            {
+                bpg = BuiltInParameterGroup.PG_LIGHT_PHOTOMETRICS;
             }
             else if (def.OwnerGroup.Name == "Mechanical - Loads")
             {
@@ -145,7 +169,11 @@ namespace BIMSource.SPWriter
             }
             else if (def.OwnerGroup.Name == "Construction")
             {
-              bpg = BuiltInParameterGroup.PG_CONSTRUCTION;
+                bpg = BuiltInParameterGroup.PG_CONSTRUCTION;
+            }
+            else if (def.OwnerGroup.Name == "Phasing")
+            {
+                bpg = BuiltInParameterGroup.PG_PHASING;
             }
             else
             {

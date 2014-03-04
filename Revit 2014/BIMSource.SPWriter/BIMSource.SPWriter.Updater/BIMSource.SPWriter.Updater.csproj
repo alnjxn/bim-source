@@ -28,8 +28,8 @@
     <ProductName>BIM Source Revit 2014 SPWriter %28Updater%29</ProductName>
     <PublisherName>BIM Source</PublisherName>
     <SuiteName>Revit 2014</SuiteName>
-    <ApplicationRevision>2</ApplicationRevision>
-    <ApplicationVersion>2013.6.16.%2a</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2013.9.4.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
