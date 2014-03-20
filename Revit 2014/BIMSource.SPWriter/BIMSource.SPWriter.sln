@@ -1,9 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIMSource.SPWriter", "BIMSource.SPWriter\BIMSource.SPWriter.csproj", "{F61A25B6-9799-40DC-A020-994BC89BA69D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIMSource.SPWriter.Updater", "BIMSource.SPWriter.Updater\BIMSource.SPWriter.Updater.csproj", "{D4F4CCAE-2A41-4093-8304-0C717C242A3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIMSource.SPWriter", "BIMSource.SPWriter\BIMSource.SPWriter.csproj", "{FE6A1E8A-C201-4CF9-B003-65514160C24E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F61A25B6-9799-40DC-A020-994BC89BA69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F61A25B6-9799-40DC-A020-994BC89BA69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F61A25B6-9799-40DC-A020-994BC89BA69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F61A25B6-9799-40DC-A020-994BC89BA69D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4F4CCAE-2A41-4093-8304-0C717C242A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4F4CCAE-2A41-4093-8304-0C717C242A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4F4CCAE-2A41-4093-8304-0C717C242A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4F4CCAE-2A41-4093-8304-0C717C242A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6A1E8A-C201-4CF9-B003-65514160C24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6A1E8A-C201-4CF9-B003-65514160C24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6A1E8A-C201-4CF9-B003-65514160C24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6A1E8A-C201-4CF9-B003-65514160C24E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

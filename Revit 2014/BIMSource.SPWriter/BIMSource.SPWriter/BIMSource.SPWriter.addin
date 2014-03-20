@@ -3,7 +3,7 @@
   <AddIn Type="Application">
     <Name>BIM Source SPWriter</Name>
     <Assembly>BIMSource.SPWriter.dll</Assembly>
-    <ClientId>df19b005-a6f9-45fe-b170-fd9e88c605a9</ClientId>
+    <ClientId>7f4be180-3484-4362-8cee-99838ccb47c1</ClientId>
     <FullClassName>BIMSource.SPWriter.Application</FullClassName>
     <VendorId>OPNR</VendorId>
     <VendorDescription>BIM Source, www.bim-source.com</VendorDescription>
